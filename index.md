@@ -2,8 +2,8 @@
 
 # My repository
 
-Minecraft-uhc: https://github.com/quentin0100/minecraft-uhc
-this page(quentin.github.io): https://github.com/quentin0100/quentin0100.github.io
+Minecraft-uhc: [https://github.com/quentin0100/minecraft-uhc](https://github.com/quentin0100/minecraft-uhc).
+this page(quentin.github.io): [https://github.com/quentin0100/quentin0100.github.io](https://github.com/quentin0100/quentin0100.github.io).
 
 ## Contact
 
