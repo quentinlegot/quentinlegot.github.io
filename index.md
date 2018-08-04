@@ -1,8 +1,8 @@
-## Welcome on my personal page
+# Welcome on my personal page
 
-# My team: Skull-Pixel
+## My team: Skull-Pixel
 
-## Other Members
+### Other Members
 
 [Goramax](https://github.com/goramax)
 
@@ -10,7 +10,7 @@
 
 [Minecraft-combat-game](https://github.com/quentin0100/minecraft-combat-game)
 
-# My repository
+## My repository
 
 Minecraft-uhc: [https://github.com/quentin0100/minecraft-uhc](https://github.com/quentin0100/minecraft-uhc) **Deprecated**, please visit **Minecraft-combat-game**
 
