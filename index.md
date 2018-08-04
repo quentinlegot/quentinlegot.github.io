@@ -8,11 +8,11 @@
 
 ## Team repositories
 
-[Minecraft-combat-game](https://github.com/quentin0100/minecraft-combat-game)
+[Minecraft-combat-game](https://github.com/skull-pixel/minecraft-combat-game)
 
 ## My repository
 
-Minecraft-uhc: [https://github.com/quentin0100/minecraft-uhc](https://github.com/quentin0100/minecraft-uhc) **Deprecated**, please visit **Minecraft-combat-game**
+Minecraft-uhc: [https://github.com/quentin3157/minecraft-uhc](https://github.com/quentin3157/minecraft-uhc) **Deprecated**, please visit **Minecraft-combat-game**
 
 ## Contact
 
