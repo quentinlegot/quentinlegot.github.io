@@ -1,15 +1,31 @@
 {
-    "header": {
-        "title": "Quentin Legot"
-    },
-    "sidebar": {
-        "title": "Mes Informations",
-        "p1": "Bonjour, Je suis Quentin, un étudiant de 23 ans.",
-        "p2": "J'étudie actuellement en Master d'Informatique parcours Cloud et Réseaux à l'Université de Rennes"
-    },
-    "footer": {
-        "title": "Ce site a été conçu en utilisant Typescript, Reactjs, vitejs et tailwindcss"
+    "title": "Fortfolio de Quentin Legot",
+    "cv": {
+        "section": {
+            "experience": "Expérience",
+            "formation": "Formation"
+        },
+        "experience": [
+            {
+                "title": "Stagiaire en informatique",
+                "type": "Stage",
+                "description": "Stagiaire automaticien: développement de tests fonctionnels sur une application mobile iOS et Android et mise en place d'un pipeline CI complet autour de ce même projet"
+            },
+            {
+                "title": "Stagiaire en informatique",
+                "type": "Stage",
+                "description": "Ma mission au sein du GREYC consistait à développer des outils d’analyses des performances des coureurs sur un parcours de course d’orientation à partir de données GPS obtenues grâce à une application mobile ou d’une montre GPS."
+            }
+        ],
+        "formation": [
+            {
+                "title": "Master en Informatique",
+                "description": "Parcours Cloud et réseaux"
+            },
+            {
+                "title": "Licence d'Informatique"
+            }
+        ]
     }
-    
 
 }

@@ -3,8 +3,8 @@ import TranslationSwitcher from "./TranslationSwitcher"
 
 
 export default function Header() {
-    const { t, i18n } = useTranslation("home")
-    i18n.loadNamespaces("home").then(() => {})
+    const { t, i18n } = useTranslation("common")
+    i18n.loadNamespaces("common").then(() => {})
 
     return (
     <header className='w-full bg-gradient-to-tr from-purple-500 to-pink-500 h-40 sm:h-40 md:h-64 lg:text-h72 xl:text-h80 flex flex-col justify-center items-center'>

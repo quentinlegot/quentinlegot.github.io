@@ -1,14 +1,31 @@
 {
-    "header": {
-        "title": "Quentin Legot"
-    },
-    "sidebar": {
-        "title": "Mes Informations",
-        "p1": "Hi, I'm Quentin, a 23 years old French student.",
-        "p2": "I'm currently in a Master degree in computer sciences in a Network and Cloud speciality at Université de Rennes."
-    },
-    "footer": {
-        "title": "This website has been made using Typescript, Reactjs, vitejs and tailwindcss"
+    "title": "Quentin Legot's Fortfolio",
+    "cv": {
+        "section": {
+            "experience": "Experience",
+            "formation": "Formation"
+        },
+        "experience": [
+            {
+                "title": "IT Intern",
+                "type": "Internship",
+                "description": "Automation intern: development of functional tests on an iOS and Android mobile application and implementation of a complete CI pipeline around this same project"
+            },
+            {
+                "title": "IT Intern",
+                "type": "Internship",
+                "description": "My mission within GREYC consisted of developing tools for analyzing runners' performance on an orienteering course using GPS data obtained using a mobile application or a GPS watch."
+            }
+        ],
+        "formation": [
+            {
+                "title": "IT Master",
+                "description": "Cloud and network speciality"
+            },
+            {
+                "title": "It bachelor"
+            }
+        ]
     }
     
 

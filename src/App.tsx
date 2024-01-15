@@ -8,7 +8,7 @@ import Home from './pages/Home';
 function App() {
 
   return (
-    <div className='bg-white dark:bg-gray-950 h-screen'>
+    <div className='bg-white dark:bg-gray-950 min-h-screen'>
       <Header />
       <div id='content' className='flex flex-wrap flex-row break-words min-h-fit w-full'>
         <Sidebar />
