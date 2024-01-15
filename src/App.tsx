@@ -22,10 +22,10 @@ function App() {
         </div>
         <main className='basis-4/5 2xl:basis-5/6 text-black dark:text-white'>
           <TranslationSwitcher i18n={i18n} />
-          text
+          This website is still in development
         </main>
-        <footer className='bg-gray-250 w-screen dark:bg-gray-900 text-black dark:text-white'>
-          text
+        <footer className='bg-gray-250 w-screen dark:bg-gray-900 text-black dark:text-white text-center p-4'>
+          {t('footer.title')}
         </footer>
       </div>
     </div>
