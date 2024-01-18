@@ -1,0 +1,33 @@
+{
+    "header": {
+        "title": "Quentin Legot"
+    },
+    "sidebar": {
+        "title": "My Informations",
+        "p1": "Hi, I'm Quentin, a 23 years old French student.",
+        "p2": "I'm currently in a Master degree in computer sciences in a Network and Cloud speciality at Université de Rennes."
+    },
+    "footer": {
+        "title": "This website has been made using Typescript, Reactjs, Vitejs and TailwindCss"
+    },
+    "month": [
+        "january",
+        "february",
+        "march",
+        "april",
+        "may",
+        "june",
+        "july",
+        "august",
+        "september",
+        "october",
+        "november",
+        "december"
+    ],
+    "link_repo": "Link to repository:",
+    "darkmode": {
+        "light": "Light theme",
+        "dark": "Dark theme",
+        "auto": "Automatic theme"
+    }
+}

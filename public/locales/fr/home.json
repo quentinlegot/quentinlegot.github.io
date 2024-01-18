@@ -1,0 +1,86 @@
+{
+    "title": "Fortfolio de Quentin Legot",
+    "cv": {
+        "section": {
+            "experience": "Expérience",
+            "formation": "Formation",
+            "skills": "Compétences",
+            "project": "Projets personnels"
+        },
+        "experience": [
+            {
+                "title": "Stagiaire en informatique",
+                "type": "Stage",
+                "description": "Stagiaire automaticien: développement de tests fonctionnels sur une application mobile iOS et Android et mise en place d'un pipeline CI complet autour de ce même projet"
+            },
+            {
+                "title": "Stagiaire en informatique",
+                "type": "Stage",
+                "description": "Ma mission au sein du GREYC consistait à développer des outils d’analyses des performances des coureurs sur un parcours de course d’orientation à partir de données GPS obtenues grâce à une application mobile ou d’une montre GPS."
+            }
+        ],
+        "formation": [
+            {
+                "title": "Master en Informatique",
+                "description": "Parcours Cloud et réseaux"
+            },
+            {
+                "title": "Licence d'Informatique"
+            }
+        ],
+        "skills": [
+            {
+                "title": "Langage de programmation",
+                "children": [
+                    "Java",
+                    "Javascript",
+                    "Python",
+                    "Rust",
+                    "C/C++",
+                    "PHP",
+                    "Golang",
+                    "MariaDB/MySQL et PostgreSQL",
+                    "HTML/CSS"
+                ]
+            },
+            {
+                "title": "Bibliothèques et Framework",
+                "children": [
+                    "React/React-Native et VueJS",
+                    "Electron.Js",
+                    "Appium",
+                    "NumPy",
+                    "Plotly",
+                    "Pandas",
+                    "Gradle",
+                    "Express.js(Javascript), Restlet(Java) et Gin(Golang)",
+                    "TailwindCss"
+                ]
+            },
+            {
+                "title": "Outils, logiciels et plateformes",
+                "children": [
+                    "Git",
+                    "GitHub Actions et Azure DevOps CI/CD",
+                    "Ansible",
+                    "Docker et Docker Compose",
+                    "Kubernetes",
+                    "Shell Linux"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "name": "BurritOS",
+                "languages": "Rust, C et assembleur RISC-V",
+                "link": "https://git.altarik.fr/quentinlegot/burritos",
+                "year": 2023,
+                "description": [
+                    "BurritOS est un système d’exploitation éducatif écrit en Rust et fonctionnant sur un simulateur d’instructions RISC-V.",
+                    "Il est capable de faire lancer des programmes utilisateurs écrit en C et compilés en binaires elf prévus pour le jeu d’instructions RISC-V 64 bits."
+                ]
+            }
+        ]
+    }
+
+}

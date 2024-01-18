@@ -1,0 +1,87 @@
+{
+    "title": "Quentin Legot's Fortfolio",
+    "cv": {
+        "section": {
+            "experience": "Experience",
+            "formation": "Formation",
+            "skills": "Skills",
+            "project": "Personal projects"
+        },
+        "experience": [
+            {
+                "title": "IT Intern",
+                "type": "Internship",
+                "description": "Automation intern: development of functional tests on an iOS and Android mobile application and implementation of a complete CI pipeline around this same project"
+            },
+            {
+                "title": "IT Intern",
+                "type": "Internship",
+                "description": "My mission within GREYC consisted of developing tools for analyzing runners' performance on an orienteering course using GPS data obtained using a mobile application or a GPS watch."
+            }
+        ],
+        "formation": [
+            {
+                "title": "IT Master",
+                "description": "Cloud and network speciality"
+            },
+            {
+                "title": "IT bachelor"
+            }
+        ],
+        "skills": [
+            {
+                "title": "Programming language",
+                "children": [
+                    "Java",
+                    "Javascript",
+                    "Python",
+                    "Rust",
+                    "C/C++",
+                    "PHP",
+                    "Golang",
+                    "MariaDB/MySQL and PostgreSQL",
+                    "HTML/CSS"
+                ]
+            },
+            {
+                "title": "Libraries and Framework",
+                "children": [
+                    "React/React-Native and VueJS",
+                    "Electron.Js",
+                    "Appium",
+                    "NumPy",
+                    "Plotly",
+                    "Pandas",
+                    "Gradle",
+                    "Express.js(Javascript), Restlet(Java) and Gin(Golang)",
+                    "TailwindCss"
+                ]
+            },
+            {
+                "title": "Tools, software and plateforms",
+                "children": [
+                    "Git",
+                    "GitHub Actions and Azure DevOps CI/CD",
+                    "Ansible",
+                    "Docker and Docker Compose",
+                    "Kubernetes",
+                    "Linux Shell"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "name": "BurritOS",
+                "languages": "Rust, C and RISC-V assembly",
+                "link": "https://git.altarik.fr/quentinlegot/burritos",
+                "year": 2023,
+                "description": [
+                    "BurritOS is an educational operating system written in Rust and running on a RISC-V instruction simulator.",
+                    "It is capable of launching user programs written in C and compiled into elf binaries intended for the 64-bit RISC-V instruction set."
+                ]
+            }
+        ]
+    }
+    
+
+}
