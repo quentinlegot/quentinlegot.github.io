@@ -33,10 +33,10 @@ export default function Home() {
             <List 
                 title={<ListElement name={t(`cv.skills.${i}.title`)} />} 
                 key={i} 
-                children={[...Array(t(`cv.skills.${i}.children`, {returnObjects: true}).length)].map((_x, j) => <ListElement key={3 + 1 + i + j} name={t(`cv.skills.${i}.children.${j}`)} />)} />
+                children={[...Array((t(`cv.skills.${i}.children`, {returnObjects: true}) as Array<string>).length)].map((_x, j) => <ListElement key={3 + 1 + i + j} name={t(`cv.skills.${i}.children.${j}`)} />)} />
         )} />
         <CvTitle name={t('cv.section.project')} cards={[]} />
-        {t("cv.projects", {returnObjects: true}).map((_value: object, key: Key) => (
+        {(t("cv.projects", {returnObjects: true}) as Array<object>).map((_value: object, key: Key) => (
             <Project key={key} name={t(`cv.projects.${key}.name`)} languages={t(`cv.projects.${key}.languages`)} link={t(`cv.projects.${key}.link`)} year={Number(t(`cv.projects.${key}.year`))} description={t(`cv.projects.${key}.description`, {returnObjects: true})} />
         ))}
             
