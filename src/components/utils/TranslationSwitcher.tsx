@@ -1,13 +1,14 @@
-import { i18n } from "i18next";
 import DropDown from "./DropDown";
-import Language  from '../assets/images/language.svg?react'
+import Language  from '../../assets/images/language.svg?react'
+import { useTranslation } from "react-i18next";
 
 interface Props {
-    i18n: i18n,
     classes?: string
 }
 
-export default function TranslationSwitcher({ i18n, classes = "" }: Props) {
+export default function TranslationSwitcher({classes = "" }: Props) {
+
+    const { i18n } = useTranslation()
 
     const changeLanguage = (lang: string) => {
         i18n.changeLanguage(lang).then(() => {})

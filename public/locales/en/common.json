@@ -8,7 +8,7 @@
         "p2": "I'm currently in a Master degree in computer sciences in a Network and Cloud speciality at Université de Rennes."
     },
     "footer": {
-        "title": "This website has been made using Typescript, Reactjs, vitejs and tailwindcss"
+        "title": "This website has been made using Typescript, Reactjs, Vitejs and TailwindCss"
     },
     "month": [
         "january",
@@ -23,5 +23,11 @@
         "october",
         "november",
         "december"
-    ]
+    ],
+    "link_repo": "Link to repository:",
+    "darkmode": {
+        "light": "Light theme",
+        "dark": "Dark theme",
+        "auto": "Automatic theme"
+    }
 }
