@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@material-symbols/svg-400": "^0.14.5",
+    "cssnano": "^6.0.3",
     "i18next": "^23.7.16",
     "i18next-browser-languagedetector": "^7.2.0",
     "i18next-chained-backend": "^4.6.2",
