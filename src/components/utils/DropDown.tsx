@@ -14,7 +14,7 @@ export default function DropDown({ icon=<></>, text = "", buttons, classes = ""}
     let timer: number
 
     return (
-        <div className={`relative inline-block ${classes}`} onMouseEnter={() => timer = setTimeout(() => setOpen(false), 3000)} onMouseLeave={() => clearTimeout(timer)}>
+        <div className={`relative inline-block ${classes}`} onMouseEnter={() => clearTimeout(timer)} onMouseLeave={() => timer = setTimeout(() => setOpen(false), 3000)}>
                 <button type="button" className="inline-flex w-fit justify-center rounded-md bg-slate-150 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-200 hover:bg-slate-200 active:bg-slate-300" onClick={() => setOpen(!open)} aria-expanded="true">
                     {icon}
                     <span>{text}</span>

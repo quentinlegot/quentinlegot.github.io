@@ -8,7 +8,8 @@
         "p2": "J'étudie actuellement en Master d'Informatique parcours Cloud et Réseaux à l'Université de Rennes"
     },
     "footer": {
-        "title": "Ce site a été conçu en utilisant Typescript, Reactjs, Vitejs et TailwindCss"
+        "title": "Ce site a été conçu en utilisant Typescript, Reactjs, Vitejs et TailwindCss",
+        "subtitle": "Code source du site"
     },
     "month": [
         "janvier",
