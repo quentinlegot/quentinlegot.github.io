@@ -1,4 +1,4 @@
 # SexiestCHiba.github.io
 
-My personal github page based on [jekyll-theme-cayman theme](https://github.com/pietromenna/jekyll-cayman-them/)
+My personal github page: [https://quentinlegot.github.io/](https://quentinlegot.github.io/)
 
