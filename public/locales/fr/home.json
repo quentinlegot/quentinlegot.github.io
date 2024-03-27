@@ -30,43 +30,52 @@
         ],
         "skills": [
             {
-                "title": "Langage de programmation",
-                "children": [
-                    "Java",
-                    "Javascript",
-                    "Python",
-                    "Rust",
-                    "C/C++",
-                    "PHP",
-                    "Golang",
-                    "MariaDB/MySQL et PostgreSQL",
-                    "HTML/CSS"
-                ]
+                "title": "Java",
+                "content": "Un des langages avec lequel je suis le plus familier, que j'utilise dans énormément de projets divers"
             },
             {
-                "title": "Bibliothèques et Framework",
-                "children": [
-                    "React/React-Native et VueJS",
-                    "Electron.Js",
-                    "Appium",
-                    "NumPy",
-                    "Plotly",
-                    "Pandas",
-                    "Gradle",
-                    "Express.js(Javascript), Restlet(Java) et Gin(Golang)",
-                    "TailwindCss"
-                ]
+                "title": "Javascript",
+                "content": "Je l'utilise sur certains projects, notamment web et serverless (avec AWS lambda)"
             },
             {
-                "title": "Outils, logiciels et plateformes",
-                "children": [
-                    "Git",
-                    "GitHub Actions et Azure DevOps CI/CD",
-                    "Ansible",
-                    "Docker et Docker Compose",
-                    "Kubernetes",
-                    "Shell Linux"
-                ]
+                "title": "Typescript",
+                "content": "Étant un grand fan de langages typés, j'affectionne tout particullièrement Typescript et n'hésite pas à remplacer Javascript par celui-ci lorsque cela est possible"
+            },
+            {
+                "title": "Python",
+                "content": "Utilisé durant mes études, j'ai beaucoup étudier Python et ses bibliothèques scientifique et matriciel(numpy, scipy, matplotlib, etc.)"
+            },
+            {
+                "title": "Rust",
+                "content": "Mon langage de bas niveau préféré, je n'ai malheuresement que peu l'occasion de le pratiquer mais j'aimerais que cela soit plus le cas à l'avenir"
+            },
+            {
+                "title": "Golang",
+                "content": "J'affectionne particulièrement confectionner des API en golang avec gin grâce à sa simplicité et sa rapidité, je l'utilise dans certains projets et déployements automatisés"
+            },
+            {
+                "title": "SQL",
+                "content": "Je suis familier depuis longtemps avec les logiciels de bases de données relationnels tels que MySQL, MariaDB et Postgresql"
+            },
+            {
+                "title": "React",
+                "content": "Le framework front-end que je préfère, sa simplicité d'utilisation et sa lisibilité de ses intructions aidant et faciliant le maintien du code, ce site à été conçu avec celui-ci"
+            },
+            {
+                "title": "Tailwind CSS",
+                "content": "Un framework de styling CSS qui se marie bien avec des framework front comme React ou Vue et sympa à manipulé, ce site à été conçu avec celui-ci"
+            },
+            {
+                "title": "AWS",
+                "content": "Actuellement former sur AWS, je connais de nombreux service élémentaire au bon fonctionnement d'un site web moderne et scalable"
+            },
+            {
+                "title": "Pratiques DevSecOps",
+                "content": "J'ai de l'expérience avec Git, Gitlab et GitHub, Gitlab CI, GitHub Actions, Docker, Docker Compose, Kubernetes, Ansible, AWS Cloudformation ainsi que des connaissances en networking"
+            },
+            {
+                "title": "Et plus encore",
+                "content": "Je possède encore d'autres connaissance qu'il n'est pas nécessaire d'afficher ici, mais si vous êtes intéressé par mon profil, n'hésitez pas à me contacter"
             }
         ],
         "projects": [

@@ -30,43 +30,52 @@
         ],
         "skills": [
             {
-                "title": "Programming language",
-                "children": [
-                    "Java",
-                    "Javascript",
-                    "Python",
-                    "Rust",
-                    "C/C++",
-                    "PHP",
-                    "Golang",
-                    "MariaDB/MySQL and PostgreSQL",
-                    "HTML/CSS"
-                ]
+                "title": "Java",
+                "content": "One of my main language, I use it on a lot of projects"
             },
             {
-                "title": "Libraries and Framework",
-                "children": [
-                    "React/React-Native and VueJS",
-                    "Electron.Js",
-                    "Appium",
-                    "NumPy",
-                    "Plotly",
-                    "Pandas",
-                    "Gradle",
-                    "Express.js(Javascript), Restlet(Java) and Gin(Golang)",
-                    "TailwindCss"
-                ]
+                "title": "Javascript",
+                "content": "I use JS on some proejcts, especially, on web and serverless (with AWS lambda)"
             },
             {
-                "title": "Tools, software and plateforms",
-                "children": [
-                    "Git",
-                    "GitHub Actions and Azure DevOps CI/CD",
-                    "Ansible",
-                    "Docker and Docker Compose",
-                    "Kubernetes",
-                    "Linux Shell"
-                ]
+                "title": "Typescript",
+                "content": "Being a big fan a hightly typed language, I like to use Typescript and I do not hesitate to replace Javascript with Typescript when possible"
+            },
+            {
+                "title": "Python",
+                "content": "I have used Python a lot during my studies, a lot, as well as its scientific and matrix librairies(numpy, scipy, matplotlib, etc.)"
+            },
+            {
+                "title": "Rust",
+                "content": "My favorite low-level language, unfortunaly, I only had little opportunity to use it but I would like to use it more in the future"
+            },
+            {
+                "title": "Golang",
+                "content": "I particularly like making golang APIs with gin thanks to its simplicity and speed, I use it in certain projects and automated deployments"
+            },
+            {
+                "title": "SQL",
+                "content": "I have long been familiar with relational database software such as MySQL, MariaDB and Postgresql"
+            },
+            {
+                "title": "React",
+                "content": "The front-end framework that I prefer, its simplicity of use and the readability of its instructions helping and facilitating code maintenance, this site was designed with it"
+            },
+            {
+                "title": "Tailwind CSS",
+                "content": "A CSS styling framework that goes well with front-end frameworks like React or Vue and is fun to handle, this site was designed with it"
+            },
+            {
+                "title": "AWS",
+                "content": "Currently training on AWS, I know many basic services for the proper functioning of a modern and scalable website"
+            },
+            {
+                "title": "Pratiques DevSecOps",
+                "content": "I have experience with Git, Gitlab and GitHub, Gitlab CI, GitHub Actions, Docker, Docker Compose, Kubernetes, Ansible, AWS Cloudformation as well as networking knowledge"
+            },
+            {
+                "title": "And more",
+                "content": "I still have other knowledge that is not necessary to display here, but if you are interested in my profile, do not hesitate to contact me"
             }
         ],
         "projects": [

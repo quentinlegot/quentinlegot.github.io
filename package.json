@@ -10,17 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@material-symbols/svg-400": "^0.14.5",
-    "cssnano": "^6.0.3",
-    "i18next": "^23.7.16",
+    "@material-symbols/svg-400": "^0.17.0",
+    "cssnano": "^6.1.0",
+    "i18next": "^23.10.1",
     "i18next-browser-languagedetector": "^7.2.0",
     "i18next-chained-backend": "^4.6.2",
-    "i18next-http-backend": "^2.4.2",
+    "i18next-http-backend": "^2.5.0",
     "i18next-localstorage-backend": "^4.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^14.0.0",
-    "react-tooltip": "^5.25.2"
+    "react-i18next": "^14.1.0",
+    "react-tooltip": "^5.26.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
