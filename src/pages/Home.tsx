@@ -5,14 +5,20 @@ import rennes_univ from "../assets/images/company/rennesuniv_formation.jpg"
 import caen_univ from "../assets/images/company/univcaen_formation.jpg"
 import { useTranslation } from "react-i18next";
 import { Key, useEffect } from "react";
-import List from "../components/utils/List";
-import ListElement from "../components/utils/ListElement";
 import Project from "../components/Project";
+import CardList from "../components/utils/CardList";
+import Card from "../components/utils/Card";
 
 export default function Home() {
     const { t, i18n } = useTranslation("home")
     i18n.loadNamespaces("home").then(() => {})
 
+    const gradient = [
+        "bg-gradient-to-r from-cyan-500 to-blue-500",
+        "bg-gradient-to-r from-sky-500 to-indigo-500",
+        "bg-gradient-to-r from-violet-500 to-fuchsia-500",
+        "bg-gradient-to-r from-purple-500 to-pink-500"
+    ];
 
     useEffect(() => {
         document.title = t('title')
@@ -29,16 +35,18 @@ export default function Home() {
             { title: t("cv.formation.1.title"), icon: caen_univ, company: "Univerisité de Caen Normandie", date_start: new Date("1 september 2019"), date_end: new Date("31 june 2022")}
         ]} />
         <CvTitle name={t('cv.section.skills')} cards={[]}/>
-        <List children={[...Array(3)].map((_x, i) => 
-            <List 
-                title={<ListElement name={t(`cv.skills.${i}.title`)} />} 
-                key={i} 
-                children={[...Array((t(`cv.skills.${i}.children`, {returnObjects: true}) as Array<string>).length)].map((_x, j) => <ListElement key={3 + 1 + i + j} name={t(`cv.skills.${i}.children.${j}`)} />)} />
-        )} />
+
+        <CardList cards={(t("cv.skills", {returnObjects: true}) as Array<object>).map((_value: object, key: number) => (
+            <Card key={key} title={t(`cv.skills.${key}.title`)} content={t(`cv.skills.${key}.content`)} gradient={gradient[key % 4]} />
+        ))} />
+        
         <CvTitle name={t('cv.section.project')} cards={[]} />
+        <div className="flex flex-col auto-cols-fr mx-auto justify-center w-11/12 max-w-screen-2xl">
         {(t("cv.projects", {returnObjects: true}) as Array<object>).map((_value: object, key: Key) => (
             <Project key={key} name={t(`cv.projects.${key}.name`)} languages={t(`cv.projects.${key}.languages`)} link={t(`cv.projects.${key}.link`)} year={Number(t(`cv.projects.${key}.year`))} description={t(`cv.projects.${key}.description`, {returnObjects: true})} />
         ))}
+        </div>
+        
             
     </div>
     )
