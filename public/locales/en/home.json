@@ -9,7 +9,12 @@
         },
         "experience": [
             {
-                "title": "IT Intern",
+                "title": "Full Stack Developer",
+                "type": "Internship",
+                "description": "Developer on a web and mobile GIS (Geographic Information System) application running on the AWS cloud (lambda, cloudformation, cognito, dynamo, etc.). This application has a learning vocation in order to train interns and work-study students in bluegreen, cloud and teamwork."
+            },
+            {
+                "title": "QA automation tester",
                 "type": "Internship",
                 "description": "Automation intern: development of functional tests on an iOS and Android mobile application and implementation of a complete CI pipeline around this same project"
             },
@@ -34,12 +39,8 @@
                 "content": "One of my main language, I use it on a lot of projects"
             },
             {
-                "title": "Javascript",
-                "content": "I use JS on some proejcts, especially, on web and serverless (with AWS lambda)"
-            },
-            {
-                "title": "Typescript",
-                "content": "Being a big fan a hightly typed language, I like to use Typescript and I do not hesitate to replace Javascript with Typescript when possible"
+                "title": "Javascript / Typescript",
+                "content": "Being a big fan a hightly typed language, I like to use Typescript and I do not hesitate to replace Javascript with Typescript when possible. I use Javascript and Typescript on some project likeElectron, AWS lambda or Web front-ends"
             },
             {
                 "title": "Python",
@@ -70,7 +71,11 @@
                 "content": "Currently training on AWS, I know many basic services for the proper functioning of a modern and scalable website"
             },
             {
-                "title": "Pratiques DevSecOps",
+                "title": "Dart and Flutter",
+                "content": "A very powerful programming language and Framework to make mobile and computer native applications with one unique codebase."
+            },
+            {
+                "title": "DevSecOps practices",
                 "content": "I have experience with Git, Gitlab and GitHub, Gitlab CI, GitHub Actions, Docker, Docker Compose, Kubernetes, Ansible, AWS Cloudformation as well as networking knowledge"
             },
             {

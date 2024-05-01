@@ -2,7 +2,7 @@ import CvCard from "./CvCard"
 
 interface Props {
     name: string,
-    cards: Array<{ title: string, icon?: string, company: string, type?: string, date_start: Date, date_end: Date, description?: React.ReactElement}>
+    cards: Array<{ title: string, icon?: string, company: string, type?: string, date_start: Date, date_end?: Date, description?: React.ReactElement}>
 }
 
 export default function CvTitle({ name, cards } : Props) {

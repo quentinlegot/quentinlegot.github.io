@@ -25,6 +25,7 @@
         "november",
         "december"
     ],
+    "date_present": "Present",
     "link_repo": "Link to repository:",
     "darkmode": {
         "light": "Light theme",

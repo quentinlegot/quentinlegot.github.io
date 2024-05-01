@@ -25,6 +25,7 @@
         "novembre",
         "décembre"
     ],
+    "date_present": "Present",
     "link_repo": "Lien vers le dépôt:",
     "darkmode": {
         "light": "Thème clair",
