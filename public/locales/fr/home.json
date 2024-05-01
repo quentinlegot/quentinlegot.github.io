@@ -9,7 +9,12 @@
         },
         "experience": [
             {
-                "title": "Stagiaire en informatique",
+                "title": "Développeur Full Stack",
+                "type": "Stage",
+                "description": "Développeur sur une application SIG(Système d'information géographique) web et mobile fonctionnant sur le cloud AWS (lambda, cloudformation, cognito, dynamo, etc.). Cette application a une vocation d’apprentissage afin de d'entrainer les stagiaires et alternants au bluegreen, cloud et au travail en équipe."
+            },
+            {
+                "title": "Testeur automaticien QA",
                 "type": "Stage",
                 "description": "Stagiaire automaticien: développement de tests fonctionnels sur une application mobile iOS et Android et mise en place d'un pipeline CI complet autour de ce même projet"
             },
@@ -34,12 +39,8 @@
                 "content": "Un des langages avec lequel je suis le plus familier, que j'utilise dans énormément de projets divers"
             },
             {
-                "title": "Javascript",
-                "content": "Je l'utilise sur certains projects, notamment web et serverless (avec AWS lambda)"
-            },
-            {
-                "title": "Typescript",
-                "content": "Étant un grand fan de langages typés, j'affectionne tout particullièrement Typescript et n'hésite pas à remplacer Javascript par celui-ci lorsque cela est possible"
+                "title": "Javascript / Typescript",
+                "content": "Étant un grand fan de langages typés, j'affectionne tout particullièrement Typescript et n'hésite pas à remplacer Javascript par celui-ci lorsque cela est possible. J'utilise Javascript et Typescript sur des projets divers comme Electron, AWS lambda ou Web front-ends."
             },
             {
                 "title": "Python",
@@ -68,6 +69,10 @@
             {
                 "title": "AWS",
                 "content": "Actuellement former sur AWS, je connais de nombreux service élémentaire au bon fonctionnement d'un site web moderne et scalable"
+            },
+            {
+                "title": "Dart et Flutter",
+                "content": "Un langage et un Framework très puissant pour conçevoir des applications mobile et PC avec une seule base de code."
             },
             {
                 "title": "Pratiques DevSecOps",

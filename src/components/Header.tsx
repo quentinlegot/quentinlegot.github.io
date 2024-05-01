@@ -9,7 +9,7 @@ export default function Header() {
 
     return (
     <header className='w-full bg-gradient-to-tr from-purple-500 to-pink-500 h-40 sm:h-40 md:h-64 lg:text-h72 xl:text-h80 flex flex-col justify-center items-center'>
-        <div className="!absolute top-2 left-2 *:mr-2" >
+        <div className="!fixed top-2 left-2 *:mr-2" >
             <TranslationSwitcher />
             <LightModeSwitcher />
         </div>
