@@ -10,26 +10,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@material-symbols/svg-400": "^0.17.0",
-    "cssnano": "^6.1.0",
+    "@material-symbols/svg-400": "^0.22.2",
+    "cssnano": "^7.0.5",
     "i18next": "^23.10.1",
-    "i18next-browser-languagedetector": "^7.2.0",
+    "i18next-browser-languagedetector": "^8.0.0",
     "i18next-chained-backend": "^4.6.2",
     "i18next-http-backend": "^2.5.0",
     "i18next-localstorage-backend": "^4.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^14.1.0",
+    "react-i18next": "^15.0.1",
     "react-tooltip": "^5.26.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "@typescript-eslint/parser": "^8.4.0",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.55.0",
+    "eslint": "^9.9.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "postcss": "^8.4.33",
@@ -37,5 +37,6 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.12",
     "vite-plugin-svgr": "^4.2.0"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
