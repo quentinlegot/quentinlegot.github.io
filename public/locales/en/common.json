@@ -5,7 +5,7 @@
     "sidebar": {
         "title": "My Informations",
         "p1": "Hi, I'm Quentin, a 23 years old French student.",
-        "p2": "I'm currently in a Master degree in computer sciences in a Network and Cloud speciality at Université de Rennes."
+        "p2": "I'm currently in the second year of my Master degree in computer sciences in a Network and Cloud speciality at Université de Rennes."
     },
     "footer": {
         "title": "This website has been made using Typescript, Reactjs, Vitejs and TailwindCss",

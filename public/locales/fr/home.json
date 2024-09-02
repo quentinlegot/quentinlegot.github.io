@@ -36,7 +36,7 @@
         "skills": [
             {
                 "title": "Java",
-                "content": "Un des langages avec lequel je suis le plus familier, que j'utilise dans énormément de projets divers"
+                "content": "Un des langages avec lequel je suis le plus familier, que j'utilise dans énormément de projets divers. J'utilise réculièrement Gradle et Maven pour la construction des projets"
             },
             {
                 "title": "Javascript / Typescript",

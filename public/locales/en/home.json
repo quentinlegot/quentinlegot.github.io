@@ -36,7 +36,7 @@
         "skills": [
             {
                 "title": "Java",
-                "content": "One of my main language, I use it on a lot of projects"
+                "content": "One of my main language, I use it on a lot of projects. I regularly use Gradle and Maven for building projects."
             },
             {
                 "title": "Javascript / Typescript",
@@ -68,7 +68,7 @@
             },
             {
                 "title": "AWS",
-                "content": "Currently training on AWS, I know many basic services for the proper functioning of a modern and scalable website"
+                "content": "Currently training on AWS, I know many services essential for the proper functioning of a modern and scalable website"
             },
             {
                 "title": "Dart and Flutter",
