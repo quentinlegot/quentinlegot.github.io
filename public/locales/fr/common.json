@@ -5,7 +5,7 @@
     "sidebar": {
         "title": "Mes Informations",
         "p1": "Bonjour, Je suis Quentin, un étudiant de 24 ans.",
-        "p2": "J'étudie actuellement en Master 2 en Informatique parcours Cloud et Réseaux à l'Université de Rennes"
+        "p2": "Ingénieur logiciel chez Orange Business"
     },
     "footer": {
         "title": "Ce site a été conçu en utilisant Typescript, Reactjs, Vitejs et TailwindCss",

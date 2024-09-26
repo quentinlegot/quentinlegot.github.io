@@ -9,6 +9,11 @@
         },
         "experience": [
             {
+                "title": "Software Engineer",
+                "type": "Permanent contract",
+                "description": ""
+            },
+            {
                 "title": "Full Stack Developer",
                 "type": "Internship",
                 "description": "Developer on a web and mobile GIS (Geographic Information System) application running on the AWS cloud (lambda, cloudformation, cognito, dynamo, etc.). This application has a learning vocation in order to train interns and work-study students in bluegreen, cloud and teamwork."

@@ -9,6 +9,11 @@
         },
         "experience": [
             {
+                "title": "Software Engineer",
+                "type": "CDI",
+                "description": ""
+            },
+            {
                 "title": "Développeur Full Stack",
                 "type": "Stage",
                 "description": "Développeur sur une application SIG(Système d'information géographique) web et mobile fonctionnant sur le cloud AWS (lambda, cloudformation, cognito, dynamo, etc.). Cette application a une vocation d’apprentissage afin de d'entrainer les stagiaires et alternants au bluegreen, cloud et au travail en équipe."
